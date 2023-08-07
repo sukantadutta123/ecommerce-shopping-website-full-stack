@@ -34,7 +34,7 @@ const createFooter = () => {
     
 
 </div>
-<p class = "footer-title">about me</p><img src="../images/mypicture.jpeg">
+<p class = "footer-title">about me</p><img src="../Images/mypicture.jpeg">
     <p class = "info">Hi there, my name is Sukanta Dutta , I am a student of Heritage Institute of Technology Kolkata,pursuing Electronics and communication engineering, currently in 3rd year,This is my third webpage as a Major project from Internselite! </p>
     <p class ="info">support emails - duttasukanta572@gmail.com , skdaredevil123@gmail.com</p>
     <p class="info">telephone - 8250758xxx</p>
