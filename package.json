@@ -1,0 +1,23 @@
+{
+  "name": "ecomeerce-full-stack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@emailjs/browser": "^3.11.0",
+    "aws-sdk": "^2.1420.0",
+    "bcrypt": "^5.1.0",
+    "bootstrap": "^5.3.1",
+    "dotenv": "^16.3.1",
+    "express.js": "^1.0.0",
+    "firebase": "^8.6.8",
+    "firebase-admin": "^11.10.1",
+    "nodemailer": "^6.9.4",
+    "nodemon": "^3.0.1"
+  },
+  "description": ""
+}

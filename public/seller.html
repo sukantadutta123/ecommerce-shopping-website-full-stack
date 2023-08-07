@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seller Page</title>
+
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/search.css">
+    <link rel="stylesheet" href="css/sellerSignup.css">
+    <link rel="stylesheet" href="css/seller.css">
+    
+    
+</head>
+<body>
+
+    <img src="Images/loader.gif" class="loader" alt="">
+
+        <div class="alert-box">
+            <img src="Images/error.png" class="alert-img" alt="">
+            <p class="alert-msg">Error message</p>
+        </div>
+        <a href="/">
+            <img src="Images/logo.png" class="logo" alt="">
+        </a>
+        
+
+        <!-- become seller -->
+        <div class="become-seller hide">
+            <p class="heading">become a seller in our website</p>
+            <p class="des">Step into a world of limitless possibilities as you embark on your journey towards success as a seller on our dynamic e-commerce platform. Seamlessly set up your store and showcase your products to a global audience, all with our user-friendly interface that prioritizes simplicity and efficiency.
+
+                Join a thriving community of passionate entrepreneurs who have harnessed the power of our platform to achieve remarkable growth and recognition. Our unwavering commitment to your success is evident through personalized support, expert guidance, and innovative marketing tools designed to elevate your brand.
+                
+                With millions of eager shoppers visiting our marketplace daily, you'll gain unparalleled exposure and opportunities to expand your reach. Be inspired by the success stories of fellow sellers who have transformed their visions into reality with our platform.
+                
+                Take the leap towards unparalleled success and let your entrepreneurial spirit soar. Empower your dreams with us and witness the transformation of your aspirations into triumphs. Your path to prosperity starts right here, where your success as a seller is our ultimate pride.</p>
+            <button class="btn" id="apply-btn">become a seller</button>    
+        </div>
+
+        <!-- apply form-->
+        <div class="apply-form">
+            <input type="text" id="buisness-name" placeholder="name of buisness / store / company / organization">
+            
+            <textarea id="buisness-add" placeholder="address"></textarea>
+            <textarea id="about" placeholder="about"></textarea>
+            <input type="text" id="number" placeholder="number">
+            <input type="checkbox"checked class="checkbox" id="terms-and-cond">
+                <label for="terms-and-cond">agree to our <a href="">terms and conditions</a></label>
+                <br>
+                <input type="checkbox" checked class="checkbox" id="legitInfo">
+                <label for="legitInfo">all information is legit<a href=""></a></label>
+                <button class="submit-btn" id="apply-form-btn">apply</button>
+        </div>
+
+
+        <!-- products list-->
+        <div class="product-listing hide">
+            <div class="add-product">
+                <p class="add-product-title">add product</p>
+                <button class="btn" onclick="location.href ='/add-product'">add product</button>
+            </div>
+            <img src="Images/noproduct.png" class="no-product-image hide" alt="">
+
+
+            <!-- delete alert-->
+            <div class="delete-alert">
+                <div class="alert">
+                    <button class="close-btn"><img src ="Images/close.png" alt=""></button>
+                    <img src="Images/delete-warning.png" class="delete-svg" alt="">
+                    <p class ="text">are you sure ? you want to delete this product</p>
+                    <button class="delete-btn">delete</button>
+                </div>
+            </div>
+
+            <!-- cards -->
+            <div class="product-container">
+           <!---    <div class="product-card">
+                <div class="product-image">
+                    <span class="tag">Draft</span>
+                    <img src="Images/tk1.jpg" class="product-thumb" alt="">
+                    <button class="card-action-btn edit-btn"><img src ="Images/edit.png" alt=""></button>
+                    <button class="card-action-btn open-btn"><img src ="Images/open.png" alt=""></button>
+                    <button class="card-action-btn delete-popup-btn"><img src ="Images/delete.png" alt=""></button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">brand 1</h2>
+                    <p class="product-short-des">info of clothing..</p>
+                    <span class="price">₹ 450/-</span><span class ="actual-price">₹ 900</span>
+                </div>
+            </div>
+            </div> -->
+        </div>
+
+    <script src="js/token.js"></script>
+    <script src="js/createProduct.js"></script>
+    <script src="js/seller.js"></script>
+    
+</body>
+</html>

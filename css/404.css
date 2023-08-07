@@ -1,0 +1,23 @@
+.four-0-four-image{
+    display:block;
+    margin:60px auto;
+
+}
+
+.four-0-four-msg{
+    text-align: center;
+    text-transform: capitalize;
+    color:#800;
+
+}
+
+.four-0-four-msg a{
+    color:black;
+    text-transform: uppercase;
+
+}
+
+.four-0-four-msg a:hover{
+    color:black;
+
+}

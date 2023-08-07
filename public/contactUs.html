@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sukuz Shop : Contact Us</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" 
+    integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/contactUs.css">
+    <link rel ="stylesheet" href="css/home.css">
+    <script src="https://kit.fontawesome.com/e3812a8401.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="navbar"></nav>
+    <section class="contact">
+        <div class="content">
+            <h2>Contact Us</h2>
+            <p>"We value your feedback. Contact us for a seamless shopping experience."</p>
+        </div>
+        <div class="container">
+            
+            
+            <div class="contactInfo">
+                <div class="box">
+                    <div class="icon"><i class="fa fa-map-marker"></i></div>
+                    <div class="text">
+                        <h3>Address</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon"><i class="fa fa-phone"></i></div>
+                    <div class="text">
+                        <h3>Phone</h3>
+                        <p>8250758xxx</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon"><i class="fa fa-envelope-o"></i></div>
+                    <div class="text">
+                        <h3>Email</h3>
+                        <p>duttasukanta572@gmail.com</p>
+                        <p>sukanta,dutta.ece25@heritageit.edu.in</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contactForm">
+                <form id="contact_form">
+                    <h2>Send Message</h2>
+                    <div class="inputBox">
+                        <input type ="text" name="name" required="required" id="fullName">
+                        <span>Full Name</span>
+                    </div>
+                    <div class="inputBox">
+                        <input type ="email" name="email" required="required" id="eMail">
+                        <span>Email</span>
+                    </div>
+                    <div class="inputBox">
+                        <textarea required="required" name="message" id="User_Message"></textarea>
+                        <span>Type your Message...</span>
+                    </div>
+                    <div class="inputBox">
+                        <input type ="Submit" name="" value="send">
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </section>
+    <script src="js/nav.js"></script>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("bIoWfXyeSXxsrRtL0");
+   })();
+</script>
+<script src="js/contactUs.js"></script>
+</body>
+</html>

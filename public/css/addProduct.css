@@ -1,0 +1,178 @@
+body{
+    display:block;
+    padding: 0 10vw;
+        background-image: url('../images/wallpaper.jpg');
+        background-size: cover; /* "cover" to resize the image to cover the entire body */
+        background-position: center; /* "center" to position the image at the center */
+        background-repeat: no-repeat; /* "no-repeat" to prevent the image from repeating */
+        opacity: .9;
+}
+
+
+.logo{
+    margin: 20px auto 50px;
+
+}
+
+input, textarea{
+    font-weight: 500;
+}
+
+input:not(input[type="checkbox"]){
+    width: 100% ; 
+    border-radius: 10px;
+}
+
+
+textarea{
+    width:100%;
+    height:270px;
+    resize: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+
+.product-info{
+    width:100%;
+    height: 500px;
+    display:grid;
+    grid-template-columns: .75fr 1.25fr;
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 20px;
+    margin-bottom: 20px;
+
+}
+
+.product-image{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    background:#efe2b8;
+    background-size: cover;
+    border-radius: 10px;
+    grid-row: span 2;
+    text-shadow: 0 0 10px #fff;
+    color:#800032;
+
+}
+
+
+
+.text{
+
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+.upload-image-sec, .select-sizes{
+    background: #efe2b8;
+    border-radius: 10px;
+    padding:20px;
+
+}
+
+.text img{
+    height: 20px;
+    margin-right: 10px;
+
+}
+
+
+.upload-catalouge{
+    width:100%;
+    margin: 20px 0;
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-gap: 10px;
+
+}
+
+.upload-image{
+    width:100%;
+    height: 100px;
+    background:#afc7b6;
+    cursor: pointer;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+
+.upload-image:hover{
+    background: rgba(38, 194, 150, 0.83);
+    background-size: cover;
+}
+
+.sizes{
+    margin-top:30px;
+}
+
+
+.size-checkbox{
+    -webkit-appearance: none;
+    width:100px;
+    height:40px;
+    border-radius:5px;
+    border: 1px solid #800032;
+    cursor: pointer;
+    margin-bottom:10px;
+    margin-right: 10px;
+    position:relative;
+    color:#800032;
+}
+
+.size-checkbox::after{
+    content: attr(value);
+    position:absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.size-checkbox:checked{
+    background:rgba(38, 194, 150, 0.83);
+    color:yellow;
+
+}
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+    margin:0;
+}
+
+.product-price{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.product-price input{
+    margin:0;
+}
+
+.buttons{
+    margin: 20px 0 50px;
+}
+
+.btn{
+    padding:10px 30px;
+    text-transform: capitalize;
+    color:#800032;
+    background: gold;
+    border-radius: 5px;
+    border:none;
+    outline:none;
+    margin-right:10px;
+    cursor: pointer;
+    font-weight: bold;
+
+}
+
+#save-btn{
+    background:#efe2b8;
+}
